@@ -12,9 +12,14 @@
     <title>Document</title>
 </head>
 <body>
-  <form action="showFormData" method="POST">
+  <!-- <form action="showFormData" method="POST">
       <input type="text" name="studentName" placeholder="Enter your name">
       <input type="submit">
-  </form>
+  </form> -->
+
+  <form action="processFromV2" method="POST">
+    <input type="text" name="studentName" placeholder="Enter your name">
+    <input type="submit">
+</form>
 </body>
 </html>

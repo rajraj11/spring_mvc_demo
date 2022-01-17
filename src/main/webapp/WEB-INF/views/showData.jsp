@@ -11,7 +11,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Hii buddy this is Homepage</p>
-    <a href="/showInputForm">Fill your form here</a>
+    Student Name is ${param.studentName}
 </body>
 </html>

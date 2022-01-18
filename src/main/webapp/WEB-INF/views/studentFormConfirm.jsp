@@ -2,6 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <%@page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +12,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Hii buddy this is Homepage</p>
-    <a href="/showInputForm">Fill your form here</a>
-    <br>
-    <a href="/student/showForm">Form data to Object</a>
+    The student is confirmed : ${studentModel.firstName} ${studentModel.lastName}
 </body>
 </html>

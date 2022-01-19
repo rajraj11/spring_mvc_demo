@@ -16,7 +16,21 @@
         First Name :<form:input path="firstName"></form:input>
         <br>
         Last Name : <form:input path="lastName"></form:input>
-        <br>
+        <br><br>
+        Country:
+
+        <!-- Hard coded  -->
+        <!-- <form:select path="country">
+            <form:option value="Brazil" label= "Brazil"></form:option>
+            <form:option value="France" label= "France"></form:option>
+            <form:option value="Germany" label= "Germany"></form:option>
+            <form:option value="India" label= "India"></form:option>
+        </form:select> -->
+
+        <form:select path="country">
+            <form:options items="${studentModel.countryOptions}"></form:options>
+        </form:select>
+        <br><br>
         <input type="submit" value="submit">
     </form:form>
 </body>

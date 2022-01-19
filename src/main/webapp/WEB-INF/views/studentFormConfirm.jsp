@@ -13,5 +13,7 @@
 </head>
 <body>
     The student is confirmed : ${studentModel.firstName} ${studentModel.lastName}
+    <br>
+    Country is : ${studentModel.country}
 </body>
 </html>

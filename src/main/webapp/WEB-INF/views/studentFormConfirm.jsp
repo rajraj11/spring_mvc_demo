@@ -15,5 +15,14 @@
     The student is confirmed : ${studentModel.firstName} ${studentModel.lastName}
     <br>
     Country is : ${studentModel.country}
+    <br>
+    Favourite Language is : ${studentModel.favouriteLanguage}
+    <br><br>
+    Operating Systems are :
+    <ul>
+        <c:forEach var="temp" items="${studentModel.operatingSystems}">
+            <li>${temp}</li>
+        </c:forEach>
+    </ul>
 </body>
 </html>
